@@ -55,6 +55,6 @@ if __name__ == '__main__':
     train_data, train_labels, test_data, test_labels = load_cifar()
     train_data, test_data = preprocess_data(train_data, test_data)
 
-    # train_file = 'train_data.txt'
-    # test_file = 'test_data.txt'
-    # write_data_to_text(train_data, train_labels, test_data, test_labels, train_file, test_file)
+    train_file = 'train_data.txt'
+    test_file = 'test_data.txt'
+    write_data_to_text(train_data, train_labels, test_data, test_labels, train_file, test_file)
